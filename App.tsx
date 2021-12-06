@@ -23,12 +23,12 @@ export default function App() {
     return null;
   } else {
     return (
-      <PaperProvider theme={theme}>
-        <Provider store={store}>
+       <Provider store={store}>
+        <PaperProvider theme={theme}>
           <Routes />
-          <StatusBar />
-        </Provider>
-      </PaperProvider>
+          <StatusBar />   
+        </PaperProvider>
+      </Provider>
     );
   }
 }
