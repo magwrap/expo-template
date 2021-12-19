@@ -1,7 +1,7 @@
 import React from "react";
 import { createMaterialTopTabNavigator } from "@react-navigation/material-top-tabs";
-import TabOneScreen from "screens/TabOneScreen";
-import TabTwoScreen from "screens/TabTwoScreen";
+import TabOneScreen from "@/screens/App/TabOneScreen";
+import TabTwoScreen from "@/screens/App/TabTwoScreen";
 
 interface TopTabNavigatorProps {}
 
