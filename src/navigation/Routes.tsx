@@ -4,9 +4,17 @@ import AppStackNavigator from "./App/AppStackNavigator";
 
 interface RoutesProps {}
 
+const MyTheme = {
+  ...DefaultTheme,
+  colors: {
+    ...DefaultTheme.colors,
+    background: "#30292f",
+  },
+};
+
 const Routes: React.FC<RoutesProps> = ({}) => {
   return (
-    <NavigationContainer>
+    <NavigationContainer theme={MyTheme}>
       <AppStackNavigator />
     </NavigationContainer>
   );
