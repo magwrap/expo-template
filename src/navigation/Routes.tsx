@@ -1,4 +1,4 @@
-import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer, DefaultTheme } from "@react-navigation/native";
 import React from "react";
 import AppStackNavigator from "./App/AppStackNavigator";
 
